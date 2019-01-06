@@ -58,10 +58,13 @@ label persistent
   kernel /casper/vmlinuz.efi
   
   append  file=/cdrom/preseed/ubuntu.seed boot=casper persistent initrd=/casper/initrd.lz quiet splash noprompt --
+  
 
 QED!
 
+
 Notes and Info:
+
 From https://askubuntu.com/questions/229808/if-i-boot-from-a-usb-drive-will-i-still-be-able-to-use-my-usb-drive-for-other-th/229837
 
 If you do a persistent install your first partition will be Fat32. Both Ubuntu and Windows can read and write to FAT32.
