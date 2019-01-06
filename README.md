@@ -50,9 +50,13 @@ Replace ALL the contents of syslinux.cfg with:
 Code:
 
 default persistent
+
 label persistent
+
   say Booting an Ubuntu persistent session...
+  
   kernel /casper/vmlinuz.efi
+  
   append  file=/cdrom/preseed/ubuntu.seed boot=casper persistent initrd=/casper/initrd.lz quiet splash noprompt --
 
 QED!
