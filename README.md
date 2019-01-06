@@ -61,7 +61,9 @@ label persistent
   
 
 
-QED!
+
+That's All!
+
 
 
 
