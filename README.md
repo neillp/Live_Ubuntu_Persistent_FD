@@ -60,7 +60,9 @@ label persistent
   append  file=/cdrom/preseed/ubuntu.seed boot=casper persistent initrd=/casper/initrd.lz quiet splash noprompt --
   
 
+
 QED!
+
 
 
 Notes and Info:
